@@ -1,0 +1,55 @@
+body {
+  width: 75vw;
+  height: 70vh;
+}
+p,
+header,
+main,
+nav,
+section,
+aside,
+footer {
+  border: 1px solid red;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.aside {
+  display: flex;
+  flex-basis: 30vw;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.also {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.also p {
+  display: flex;
+  width: 20vw;
+  flex-grow: 1;
+  justify-content: center;
+}
+.section .title {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
