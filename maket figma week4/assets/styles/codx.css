@@ -1,0 +1,140 @@
+p {
+  margin: 0;
+}
+* {
+  font-family: "Outfit", Times, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+main {
+  display: flex;
+}
+h2 {
+  font-size: 64px;
+  margin-block: 0%;
+}
+
+h3 {
+  font-size: 17px;
+}
+h2,
+h3,
+.rectangle1,
+.rectangle2 {
+  color: #2f2f2f;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  flex-grow: 1;
+}
+.mint {
+  color: #82cbac;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.persons {
+  position: relative;
+  width: 620px;
+  height: 510px;
+}
+.person1 {
+  position: absolute;
+  left: 40px;
+  width: 325px;
+}
+
+.person2 {
+  position: absolute;
+  top: 100px;
+  left: 209px;
+  width: 410px;
+}
+
+.rectangle1,
+.rectangle2 {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px -4px 19px rgba(0, 0, 0, 0.03);
+  border-radius: 30px;
+}
+.rectangle1 {
+  position: absolute;
+  top: 15px;
+  width: 105px;
+  height: 33px;
+}
+.rectangle2 {
+  position: absolute;
+  top: 433px;
+  left: 125px;
+  width: 159px;
+  height: 55px;
+}
+.photo {
+  width: 25%;
+}
+div .contacts {
+  padding: 10px;
+}
+nav .menu {
+  text-decoration: none;
+  height: 16px;
+  font-size: 15px;
+  color: #222222;
+  padding: 48px;
+}
+
+nav .menu:hover {
+  text-decoration: underline;
+}
+nav .menu:visited {
+  color: darkblue;
+}
+
+.contacts :hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+#view {
+  background: #2f2f2f;
+  border-radius: 20px;
+  width: 144px;
+  height: 40px;
+  font-size: 13px;
+  color: white;
+}
+#view:hover {
+  text-decoration: underline;
+}
+
+#p1 {
+  font-size: 11px;
+}
+
+#p2 {
+  font-size: 9px;
+}
+
+#p3 {
+  font-size: 16px;
+}
+
+#p4 {
+  font-size: 11px;
+}
